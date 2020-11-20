@@ -15,7 +15,7 @@
         "compiler": [
 			{
 				"name": "XC8",
-				"semverRange": "^2.20.0"
+				"semverRange": "^2.30.0"
 			}
 		],
         "dfp": {
