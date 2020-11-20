@@ -5,25 +5,25 @@
         "metaDataVersion": "1.1.0",
         "name": "com.microchip.mcu8.mplabx.project.atmega4809-getting-started-with-gpio-mplab",
         "version": "1.0.0",
-        "displayName": "  ",
+        "displayName": "Getting Started with GPIO (General Purpose Input/Output)",
         "projectName": "atmega4809-getting-started-with-gpio-mplab",
-        "shortDescription": "",
+        "shortDescription": "This repository contains examples of bare metal source code for General Purpose Input/Output (GPIO) as described in the [Getting Started with GPIO](http://ww1.microchip.com/downloads/en/Appnotes/90003229A.pdf) document from Microchip",
         "ide": {
             "name": "MPLAB X",
-            "semverRange": ""
+            "semverRange": ">=5.40.0"
         },
         "compiler": [
 			{
 				"name": "XC8",
-				"semverRange": ""
+				"semverRange": "^2.20.0"
 			}
 		],
         "dfp": {
-            "name": "",
-            "semverRange": ""
+            "name": "ATmega_DFP",
+            "semverRange": "2.2.108"
         },
         "configurator": {
-            "name": "",
+            "name": "N/A",
             "semverRange": ""
         },
         "device": {
@@ -32,16 +32,16 @@
             "content": {
                 "metaDataVersion": "1.0.0",
                 "category": "com.microchip.device",
-                "name": "",
+                "name": "ATmega4809",
                 "versionRange": "*"
             }
         },
-        "author": "",
+        "author": "Microchip",
         "subcategories": [
         ],
-        "peripherals": [
+        "peripherals": [ "GPIO"
         ],
-        "keywords": [
+        "keywords": [ "Getting Started", "Blinky", "Wake-up"
         ],
 		"additionalData": {
 			"longDescription": {
