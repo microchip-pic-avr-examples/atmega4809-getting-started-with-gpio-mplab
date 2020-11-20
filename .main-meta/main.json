@@ -14,7 +14,7 @@
         },
         "compiler": [
 			{
-				"name": "XC8",
+				"name": "AVR XC8",
 				"semverRange": "^2.30.0"
 			}
 		],
