@@ -2,15 +2,15 @@
 
 # Getting Started with GPIO (General Purpose Input/Output) Examples (MPLAB® X)
 
-  This repository contains examples of bare metal source code for General Purpose Input/Output (GPIO) as described in the [Getting Started with GPIO](http://ww1.microchip.com/downloads/en/Appnotes/90003229A.pdf) document from Microchip. The repository contains three  MPLAB® X projects:
+  This repository contains examples of bare metal source code for General Purpose Input/Output (GPIO) as described in the [TB3229 - Getting Started with General Purpose Input/Output (GPIO)](https://ww1.microchip.com/downloads/en/Appnotes/Getting-Started-with-GPIO-DS90003229B.pdf) document from Microchip. The repository contains three  MPLAB® X projects:
 
-- [<strong>Blinking an LED:</strong>](LED_Toggle) This use case shows how to toggle a pin connected to an LED (for more details, see [<strong>Blinking an LED</strong>](LED_Toggle))
-- [<strong>Long and Short button press:</strong>](Detect_Long_And_Short_Button_Press) This project uses a pin as input to distinguish between a long and short button press, defined by a delay threshold (for more details, see [<strong>Long and Short button press</strong>](Detect_Long_And_Short_Button_Press))
+- [<strong>Blink an LED:</strong>](Blink_an_LED) This use case shows how to toggle a pin connected to an LED (for more details, see [<strong>Blink an LED</strong>](Blink_an_LED))
+- [<strong>Long and Short button press:</strong>](Long_And_Short_Button_Press) This project uses a pin as input to distinguish between a long and short button press, defined by a delay threshold (for more details, see [<strong>Long and Short button press</strong>](Long_And_Short_Button_Press))
 - [<strong>Wake-Up On Button Press:</strong>](Wake_Up_On_Button_Press) Exits Sleep on button press, turns on an LED and goes back to Sleep. On button release, exits Sleep, turns off the LED and goes back to Sleep (for more details, see [<strong>Wake-Up On Button Press</strong>](Wake_Up_On_Button_Press))
 
 ## Related Documentation
 More details and code examples on the ATMEGA4809 can be found at the following links:
-- [TB3229 Getting Started with GPIO (General Purpose Input/Output)](http://ww1.microchip.com/downloads/en/Appnotes/90003229A.pdf)
+- [TB3229 - Getting Started with General Purpose Input/Output (GPIO)](https://ww1.microchip.com/downloads/en/Appnotes/Getting-Started-with-GPIO-DS90003229B.pdf)
 - [ATMEGA4809 Product Page](https://www.microchip.com/wwwproducts/en/ATMEGA4809)
 - [ATMEGA4809 Code Examples on GitHub](https://github.com/microchip-pic-avr-examples?q=atmega4809)
 - [ATMEGA4809 Project Examples in START](https://start.atmel.com/#examples/ATMEGA4809XplainedPro)

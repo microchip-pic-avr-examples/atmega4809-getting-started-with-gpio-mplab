@@ -4,7 +4,7 @@
     "content": {
         "metaDataVersion": "1.1.0",
         "name": "com.microchip.mcu8.mplabx.project.atmega4809-getting-started-with-gpio-mplab",
-        "version": "1.0.0",
+        "version": "1.0.1",
         "displayName": "Getting Started with GPIO (General Purpose Input/Output)",
         "projectName": "atmega4809-getting-started-with-gpio-mplab",
         "shortDescription": "This repository contains examples of bare metal source code for General Purpose Input/Output (GPIO) as described in the [Getting Started with GPIO](http://ww1.microchip.com/downloads/en/Appnotes/90003229A.pdf) document from Microchip",
@@ -14,7 +14,7 @@
         },
         "compiler": [
 			{
-				"name": "AVR XC8",
+				"name": "XC8",
 				"semverRange": "^2.30.0"
 			}
 		],
@@ -38,10 +38,12 @@
         },
         "author": "Microchip",
         "subcategories": [
+            "Peripherals",
+            "GPIO"
         ],
         "peripherals": [ "GPIO"
         ],
-        "keywords": [ "Getting Started", "Blinky", "Wake-up"
+        "keywords": [ "Getting Started", "Blink", "Wake-up"
         ],
 		"additionalData": {
 			"longDescription": {

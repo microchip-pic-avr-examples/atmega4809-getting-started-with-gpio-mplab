@@ -1,12 +1,12 @@
 [![MCHP](../images/microchip.png)](https://www.microchip.com)
 
- # Long and Short Button Press Detection
+ # Blink an LED
 
-This code example uses a GPIO pin configured as an input to distinguish between a long and a short button press, defined by a delay threshold. An LED’s blink rate is slow if a long press is detected, and fast if a short press is detected.
+This project shows how to blink an LED connected to a GPIO pin. The LED spends 500 ms in ON state and 500 ms in OFF state.
 
 ## Related Documentation
 More details and code examples on the ATMEGA4809 can be found at the following links:
-- [TB3229 Getting Started with GPIO (General Purpose Input/Output)](http://ww1.microchip.com/downloads/en/Appnotes/90003229A.pdf)
+- [TB3229 - Getting Started with General Purpose Input/Output (GPIO)](https://ww1.microchip.com/downloads/en/Appnotes/Getting-Started-with-GPIO-DS90003229B.pdf)
 - [ATMEGA4809 Product Page](https://www.microchip.com/wwwproducts/en/ATMEGA4809)
 - [ATMEGA4809 Code Examples on GitHub](https://github.com/microchip-pic-avr-examples?q=atmega4809)
 - [ATMEGA4809 Project Examples in START](https://start.atmel.com/#examples/ATmega4809XplainedPro)
@@ -26,27 +26,24 @@ The ATMEGA4809 Xplained Pro Development Board is used as test platform.
 
 The following configurations must be made for this project:
 
-- Clock configured for 3.33 MHz
-- Pin PB2 has internal pull-up enabled
-
+System clock: 3.33 Mhz
 
  |Pin                       | Configuration      |
  | :---------------------:  | :----------------: |
- |            PB2           |   Digital input    |
  |            PB5           |   Digital output   |
 
  ## Operation
  1. Connect the board to the PC.
 
- 2. Open the Detect_Long_And_Short_Press.X project in MPLAB® X IDE.
+ 2. Open the Blink_an_LED.X project in MPLAB® X IDE.
 
- 3. Set the Detect_Long_And_Short_Press.X project as the main project. Right click on the project in the **Projects** tab and click **Set as Main Project**.
+ 3. Set the Blink_an_LED.X project as the main project. Right click on the project in the **Projects** tab and click **Set as Main Project**.
 
 <br><img src="../images/Set_as_Main_Project.PNG" height="500">
 
- 4. Clean and build the Detect_Long_And_Short_Press.X project: right click on the **Detect_Long_And_Short_Press.X** project and select **Clean and Build**.
+ 4. Clean and build the Blink_an_LED.X project: right click on the **Blink_an_LED.X** project and select **Clean and Build**.
 
-<br><img src="../images/Clean_and_Build.PNG" height="500">
+<br><img src="../images/Clean_and_Build.PNG"  height="500">
 
  5. Select the **ATMEGA4809 Xplained Pro** in the Connected Hardware Tool section of the project settings:
    - Right click on the project and click **Properties**
@@ -61,14 +58,10 @@ The following configurations must be made for this project:
 
 ## Demo
 
-<br><img src="images/short_press.png" width="800">
+<br><img src="images/demo.png" width="800">
 
-In this first image, the short button press is followed by the LED blinking at a fast rate.
-
-<br><img src="images/long_press.png" width="800">
-
-In the second image, the long button press is followed by the LED blinking at a slow rate.
+The image above shows the waveform of the pin connected to the LED. The pin spends 500 ms in a high state and 500 ms in a low state.
 
 ## Summary
 
-The GPIO interface can be used to sense external digital signals to make certain decisions. In this code example, the focus was on pushing a button. An LED’s blink rate was slow if a long press was detected, and fast if a short press was detected.
+This project shows how to blink an LED connected to a GPIO pin of the microcontroller.

@@ -3,7 +3,7 @@
     <type>com.microchip.mplab.nbide.embedded.makeproject</type>
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/make-project/1">
-            <name>LED_Toggle</name>
+            <name>Blink_an_LED</name>
             <creation-uuid>74e10546-e16f-4f76-ab2b-5de2880ffe6e</creation-uuid>
             <make-project-type>0</make-project-type>
             <c-extensions>c</c-extensions>
