@@ -28,15 +28,15 @@
             "content": {
                 "metaDataVersion": "1.0.0",
                 "category": "com.microchip.device",
-                "name": "ATmega4809",
+                "name": "ATMEGA4809",
                 "versionRange": "*"
             }
         },
         "author": "Microchip",
         "peripherals": [
-			"PORT"
+			"Port"
         ],
-        "keywords": [ "Getting Started", "Blink", "Wake-up"
+        "keywords": [ "Getting Started", "LED", "Button", "Wakeup"
         ],
 		"additionalData": {
 			"longDescription": {
