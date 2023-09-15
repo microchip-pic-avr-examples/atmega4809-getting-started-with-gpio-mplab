@@ -1,6 +1,6 @@
  <a href="https://www.microchip.com" rel="nofollow"><img src="images/microchip.png" alt="MCHP" width="300"/></a>
 
-# Getting Started with GPIO (General Purpose Input/Output) Examples (MPLAB® X)
+# Getting Started with GPIO (General Purpose Input/Output) Examples (MPLAB® X) Using the ATmega4809 Microcontroller
 
   This repository contains examples of bare metal source code for General Purpose Input/Output (GPIO) as described in the [TB3229 - Getting Started with General Purpose Input/Output (GPIO)](https://ww1.microchip.com/downloads/en/Appnotes/Getting-Started-with-GPIO-DS90003229B.pdf) document from Microchip. The repository contains three  MPLAB® X projects:
 
@@ -13,7 +13,7 @@ More details and code examples on the ATMEGA4809 can be found at the following l
 - [ATMEGA4809 Product Page](https://www.microchip.com/wwwproducts/en/ATMEGA4809)
 - [ATMEGA4809 Code Examples on GitHub](https://github.com/microchip-pic-avr-examples?q=atmega4809)
 - [ATMEGA4809 Project Examples in START](https://start.atmel.com/#examples/ATMEGA4809XplainedPro)
-- [TB3229 - Getting Started with General Purpose Input/Output (GPIO)](https://ww1.microchip.com/downloads/en/Appnotes/Getting-Started-with-GPIO-DS90003229B.pdf)
+- [Getting Started with General Purpose Input/Output (GPIO)](https://ww1.microchip.com/downloads/en/Appnotes/Getting-Started-with-GPIO-DS90003229B.pdf)
 
 
 ## Software Used
@@ -23,6 +23,6 @@ More details and code examples on the ATMEGA4809 can be found at the following l
 
 
 ## Hardware Used
-- ATMEGA4809 Xplained Pro [(ATMEGA4809-XPRO)](https://www.microchip.com/developmenttools/ProductDetails/ATMEGA4809-XPRO)
+- [ATMEGA4809 XPLAINED PRO](https://www.microchip.com/developmenttools/ProductDetails/ATMEGA4809-XPRO)
 
 <br><img src="images/atmega4809_xplainedpro.jpg" height="300">

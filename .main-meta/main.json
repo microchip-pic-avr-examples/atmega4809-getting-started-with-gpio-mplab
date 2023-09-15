@@ -5,7 +5,7 @@
         "metaDataVersion": "1.3.0",
         "name": "com.microchip.mcu8.mplabx.project.atmega4809-getting-started-with-gpio-mplab",
         "version": "1.0.3",
-        "displayName": "Getting Started with GPIO (General Purpose Input/Output)",
+        "displayName": "Getting Started with GPIO (General Purpose Input/Output) Examples (MPLAB® X) Using the ATmega4809 Microcontroller",
         "projectName": "atmega4809-getting-started-with-gpio-mplab",
         "shortDescription": "This repository contains examples of bare metal source code for General Purpose Input/Output (GPIO) as described in the [Getting Started with GPIO](http://ww1.microchip.com/downloads/en/Appnotes/90003229A.pdf) document from Microchip",
         "ide": {
